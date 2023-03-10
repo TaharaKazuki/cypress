@@ -19,7 +19,8 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "ESNext",
-    "useDefineForClassFields": true
+    "useDefineForClassFields": true,
+    "types": ["cypress"]
   },
   "include": ["src", "jest.setup.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
